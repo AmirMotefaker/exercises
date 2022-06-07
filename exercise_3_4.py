@@ -3,4 +3,4 @@
 
 # 4 - Write a math phrase that uses the remaining and submultiple.
 
-print ((5 % 2) + (6 / 3))
+print ((5 % 2) + (6 // 3) - (8 / 4))
