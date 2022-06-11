@@ -34,7 +34,7 @@ print(b)
 # - C (state of a complex value)
 my_dict = {
     "mydict": {
-    "values": [1,5,'hi',100]
+        "values": [1,5,'hi',100]
     },
     "strings": ["hello", "hi"],
     "num": 7,
@@ -47,14 +47,14 @@ print(c)
 # - D (complex mode)
 my_dict = {
     "mydict": {
-    "inner": {
-    "key1": 'hi',
-    "key2": [1, 'day', 100, 'bye']
-    },
-    "inner2": {
-    "key1": 8,
-    "second": 1
-    }
+        "inner": {
+            "key1": 'hi',
+            "key2": [1, 'day', 100, 'bye']
+        },
+        "inner2": {
+            "key1": 8,
+            "second": 1
+        }
     },
     "strings": ["hello", "hi", 11],
     "num": 10,
