@@ -42,3 +42,23 @@ my_dict = {
 
 c = my_dict["mydict"]["values"][3]
 print(c)
+
+
+# - D (complex mode)
+my_dict = {
+    "mydict": {
+    "inner": {
+    "key1": 'hi',
+    "key2": [1, 'day', 100, 'bye']
+    },
+    "inner2": {
+    "key1": 8,
+    "second": 1
+    }
+    },
+    "strings": ["hello", "hi", 11],
+    "num": 10,
+}
+
+d = my_dict["mydict"]["inner"]["key2"][2]
+print(d)
