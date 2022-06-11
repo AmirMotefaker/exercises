@@ -30,3 +30,15 @@ my_dict = {
 b = my_dict["mylist"][3]
 print(b)
 
+
+# - C (state of a complex value)
+my_dict = {
+    "mydict": {
+    "values": [1,5,'hi',100]
+    },
+    "strings": ["hello", "hi"],
+    "num": 7,
+}
+
+c = my_dict["mydict"]["values"][3]
+print(c)
