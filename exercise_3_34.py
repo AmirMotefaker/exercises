@@ -18,3 +18,15 @@ my_dict = {
 a = my_dict["key1"]
 print(a)
 
+
+
+# - B (list mode inside the dictionary)
+my_dict = {
+    "mylist": [1,2,45,100],
+    "strings": ["hello", "hi"],
+    "num": 7,
+}
+
+b = my_dict["mylist"][3]
+print(b)
+
