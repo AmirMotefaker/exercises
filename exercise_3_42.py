@@ -39,3 +39,25 @@ student = {
             "age": 49
             }
 }
+
+
+# Solution 2
+age = 25
+
+name = "Amir"
+
+marks = [20, 12, 18, 17, 9]
+
+names = ['amir', 'arad', 'john', 'eli', 'bay']
+
+developer = {
+        "first_name" : "Amir",
+        "last_name" : "Motefaker",
+        "age" : 43,
+        "techs" : ['React', 'Django', 'Android'],
+}
+
+person_details = ("Ana", 30) # touple
+
+is_sunny = True
+
