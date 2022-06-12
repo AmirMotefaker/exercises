@@ -7,3 +7,5 @@
 # Multiply the number 3 by the number 1000 (you can use parentheses)
 
 print(((2 ** 10) * (15 +(-3)) + (3 * 1000)))
+# output
+# 15288
