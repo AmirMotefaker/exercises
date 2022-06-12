@@ -6,5 +6,10 @@
 # and then displayed by the print function.
 
 sum  = 23 + 45 +(-7)
-
 print(sum)
+
+a = -7 + 45 + 23
+print(a)
+
+# output
+# 61
