@@ -9,13 +9,25 @@
 # • Write the above program once using the format ().
 # • Write the above program once using string-fs. (Tip: The same as before the string We wrote an f)
 
-my_name = "Amir"
+name = "Amir"
 age = 43
-programming_language = "Python"
+language = "Python"
 
 # using .format()
-print("My name is {0}. My age is {1}. I love {2}".format("Amir", 43, "Python"))
+print("My name is {0}. My age is {1}. I love {2}".format(name, age, language))
+# Output:
+# My name is Amir. My age is 43. I love Python
 
 
 # using f-string
-print(f'My name is {my_name}. My age is {age}. I love {programming_language}. ')
+print(f'My name is {name}. My age is {age}. I love {language}. ')
+# Output:
+# My name is Amir. My age is 43. I love Python
+
+
+
+# another solution
+print("My name is {a}. My age is {b}. I love {c}".format(b=age, a=name ,c=language))
+# Output:
+# My name is Amir. My age is 43. I love Python
+
