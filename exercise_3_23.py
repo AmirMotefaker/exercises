@@ -21,7 +21,7 @@ job = "Developer"
 print(f'I am {name} {family_name}. I am a {job}. ')
 
 
-# output
+# Output:
 # 16
 # Mohammad Hadi HajiHosseini
 # I am Mohammad Hadi HajiHosseini. I am a Developer.
