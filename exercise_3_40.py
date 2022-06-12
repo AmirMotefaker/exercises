@@ -6,11 +6,21 @@
 
 my_tuple = ("apple", "banana", "cherry")
 print(my_tuple)
+# output:
+# ('apple', 'banana', 'cherry')
+
 print(type(my_tuple))
+# output:
+# <class 'tuple'>
 
 my_tuple2 = ("1", "2", "3")
 print(my_tuple2)
+# output:
+# ('1', '2', '3')
+
 print(type(my_tuple2))
+# output:
+# <class 'tuple'>
 
 # Difference Between List and Tuple in Python:  
 # NO.	    LIST	                                            TUPLE
