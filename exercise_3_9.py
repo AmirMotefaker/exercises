@@ -8,6 +8,11 @@ print(2 * 3 + 4)
 # output
 # 10
 
+print(2 * (3 + 4))
+# output
+# 14
+
+
 print(2 + 3 * 4)
 # output
 # 14
@@ -15,3 +20,4 @@ print(2 + 3 * 4)
 print((2 + 3) * 4)
 # output
 # 20
+
