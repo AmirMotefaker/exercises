@@ -5,3 +5,6 @@
 # (Do this addition directly in print)
 
 print(23 + 45 +(-7))
+print(-7 + 45 + 23)
+# output
+# 61
