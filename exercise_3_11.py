@@ -7,3 +7,7 @@
 print(1 + 2.5 - 3)
 # Output
 # 0.5
+
+print(type(1 + 2.5 - 3))
+# output
+# <class 'float'>
