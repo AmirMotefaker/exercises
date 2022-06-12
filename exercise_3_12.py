@@ -7,3 +7,13 @@
 print(115 / 2)
 # Output
 # 57.5
+
+
+print(115 // 2)
+# Output
+# 57
+
+
+print(115 % 2)
+# Output
+# 1
