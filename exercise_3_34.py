@@ -17,7 +17,8 @@ my_dict = {
 
 a = my_dict["key1"]
 print(a)
-
+# output:
+# 100
 
 
 # - B (list mode inside the dictionary)
@@ -29,6 +30,8 @@ my_dict = {
 
 b = my_dict["mylist"][3]
 print(b)
+# output:
+# 100
 
 
 # - C (state of a complex value)
@@ -42,6 +45,8 @@ my_dict = {
 
 c = my_dict["mydict"]["values"][3]
 print(c)
+# output:
+# 100
 
 
 # - D (complex mode)
@@ -62,3 +67,5 @@ my_dict = {
 
 d = my_dict["mydict"]["inner"]["key2"][2]
 print(d)
+# output:
+# 100
