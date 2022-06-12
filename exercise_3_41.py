@@ -48,3 +48,16 @@ if myFunction():
   print("YES!")
 else:
   print("NO!")
+# output:
+# YES!
+
+
+
+my_boolean1 = True
+
+my_boolean1 = False
+
+is_yesterday_12th = True
+
+are_you_good = False
+
