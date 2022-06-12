@@ -26,3 +26,7 @@ print(person_details["name"])
 print(person_details["languages"])
 
 print(person_details["languages"][2])
+# output:
+# Ana
+# ['Python', 'Java', 'C']
+# C
