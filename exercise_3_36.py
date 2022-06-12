@@ -16,3 +16,18 @@ c = my_dict = {
 print(type(a))
 print(type(b))
 print(type(c))
+# output:
+# <class 'str'>
+# <class 'list'>
+# <class 'dict'>
+
+
+
+# solution 2
+my_list = [12, 3]
+my_dict = {}
+my_str = "Amir"
+
+print(type(my_list), type(my_dict), type(my_str))
+# output:
+# <class 'list'> <class 'dict'> <class 'str'>
