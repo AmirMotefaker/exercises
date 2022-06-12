@@ -10,5 +10,15 @@
 my_list = ['5', '9', '14', '12', '10', '-1', '-4', '9']
 
 print(len(my_list))
+# len = 8
+# last index = 7
+
 
 print(my_list[-1])
+# output
+# 8
+# 9
+
+print(my_list[7])
+# output
+# 9
