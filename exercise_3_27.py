@@ -11,3 +11,15 @@ print(len(my_list))
 
 my_list_pop = my_list.pop(2)
 print(my_list_pop)
+# output
+# 10
+# -104
+
+
+my_list = ['5', '9', '-104', '14', '12', '10', '-1', '-4', '9', '78']
+
+a = my_list.pop(2)
+
+print(a, my_list)
+# output
+# -104 ['5', '9', '14', '12', '10', '-1', '-4', '9', '78']
