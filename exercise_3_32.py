@@ -8,4 +8,13 @@
 my_list = [14, -3, 1, 923, -32, 79, 61, 10, -723, 48]
 
 print(max(my_list))
+# output:
+# 923
+
+print(f'The max is {max(my_list)}')
+# output:
+# The max is 923
+
 print(min(my_list))
+# output:
+# -723
