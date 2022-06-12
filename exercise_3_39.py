@@ -55,25 +55,25 @@ student = {
 }
 
 print(student["classes"])
-# output
+# Output:
 # ['math', 'gym', 'chemistry', 'history']
 
 print(student["parents"])
-# output
+# Output:
 # {'father': {'name': 'Ali', 'age': 49}, 'mother': {'name': 'Sara', 'age': 46}}
 
 print(student["parents"]["father"]["name"])
-# output
+# Output:
 # Ali
 
 print(student["classes"][3])
-# output
+# Output:
 # history
 
 print(student["parents"]["father"]["age"])
-# output
+# Output:
 # 49
 
 print(student["classes"][:2])
-# output
+# Output:
 # ['math', 'gym']
