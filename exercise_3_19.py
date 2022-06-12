@@ -13,6 +13,10 @@ print(my_str[4])
 # output
 # n
 
+print(my_str[-9])
+# output
+# n
+
 
 print(my_str[12])
 # output
@@ -21,6 +25,16 @@ print(my_str[-1])
 # output
 # m
 
+
+print(my_str[6:9])
+# output
+# Yar
+
+print(my_str[6:9:1])
+# output
+# Yar
+
+
 print(my_str[::-1])
 # output
 # moc.raYgnidoC
@@ -28,5 +42,4 @@ print(my_str[::-1])
 print ("".join(reversed(my_str)))
 # output
 # moc.raYgnidoC
-
 
