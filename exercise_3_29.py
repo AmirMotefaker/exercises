@@ -12,4 +12,5 @@ print(my_list[2][0])
 
 my_list[2][0] = "Python"
 print(my_list)
-
+# output
+# [1, [1, 2, 3], ['Python', 'hi', 10], 100]
