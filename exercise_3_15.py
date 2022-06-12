@@ -12,7 +12,13 @@ b = (100 // 3)
 c = (b * 3) + a
 
 print(c)
+# Output 
+# 100
 
 
+exercise13 = 100 % 3
+exercise14 = 100 // 3
+
+print(exercise14 * 3 + exercise13)
 # Output 
 # 100
