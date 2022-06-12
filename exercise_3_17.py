@@ -9,8 +9,9 @@
 
 a = 20
 b = 110
-
 c = a + b
 d = a * b
 
-print(d * c)
+print(c * d)
+# output
+# 286000
