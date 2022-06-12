@@ -15,3 +15,22 @@ country = input("Where country do you live in :")
 age = input("How old are you :")
 
 print(f"Hi, {name}. You live in {country}. Your age is {age}")
+# output:
+# What is your name :Amir
+# Where country do you live in :Qazvin
+# How old are you :43
+# Hi, Amir. You live in Qazvin. Your age is 43
+
+
+
+# Solution 2
+user_name = input("Name :")
+user_age = input("Age :")
+user_country = input("Country :")
+
+print(f"Hi, {user_name}. You live in {user_country}. Your age is {user_age}")
+# output:
+# Name :Amir
+# Age :43
+# Country :Iran
+# Hi, Amir. You live in Iran. Your age is 43
