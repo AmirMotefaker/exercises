@@ -3,14 +3,17 @@
 
 price = int(input("Enter price :"))
 
-if price > 1000:
+if price >= 1000:
     print("Too expensive.")
-elif 500 < price < 1000:
+elif 500 <= price < 1000:
     print("It is expensive.")
-elif 100 < price < 500:
+elif 100 <= price < 500:
     print("It is normal.")
-else:
+elif 0 < price < 100:
     print("It is cheap.")
+
+else:
+    print("Price cannot be a negative number.")
 
 # output:
 # Enter price :1001
@@ -27,3 +30,7 @@ else:
 # output:
 # Enter price :75
 # It is cheap.
+
+# output:
+# Enter price :-10
+# Price cannot be a negative number.
