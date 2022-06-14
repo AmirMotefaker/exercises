@@ -11,3 +11,12 @@ if mod > 0:
     print("This is an odd number.")
 else:
     print("This is an even number.")
+
+
+# output:
+# Enter a number: 131
+# This is an odd number.
+
+# output:
+# Enter a number: 598
+# This is an even number.
