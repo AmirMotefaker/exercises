@@ -58,10 +58,21 @@
 
 
 # Solution 3 - CodingYar
+# word = input('Enter your word: ')
+# word = word.lower()
+
+# if word == ''.join(reversed(list(word))):
+#     print('This is Palindrome')
+# else:
+#     print("This is not Palindrome")
+
+
+
+# Solution 4 - CodingYar
 word = input('Enter your word: ')
 word = word.lower()
 
-if word == ''.join(reversed(list(word))):
+if word == word[::-1]:
     print('This is Palindrome')
 else:
     print("This is not Palindrome")
