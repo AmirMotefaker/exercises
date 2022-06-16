@@ -9,20 +9,20 @@
 # and if the user enters the third word then the result of multiplying these two is displayed.
 # If the user enters a word other than these three then tell him "the entered word is invalid"
 
-num1 = int(input("Enter Num1 :"))
-num2 = int(input("Enter Num2 :"))
+# num1 = int(input("Enter Num1 :"))
+# num2 = int(input("Enter Num2 :"))
 
-operators = str(input("Enter p, mi, mul:(Plus, Minus, Multiply) "))
+# operators = str(input("Enter p, mi, mul:(Plus, Minus, Multiply) "))
 
-if operators == 'p':
-    print(num1 + num2)
-elif operators == 'mi':
-    print(num1 - num2)
-elif operators == 'mul':
-    print(num1 * num2)
+# if operators == 'p':
+#     print(num1 + num2)
+# elif operators == 'mi':
+#     print(num1 - num2)
+# elif operators == 'mul':
+#     print(num1 * num2)
 
-else:
-    print("The entered word is invalid")
+# else:
+#     print("The entered word is invalid")
 
 
 # output:
@@ -48,3 +48,38 @@ else:
 # Enter Num2 :2
 # Enter p, mi, mul:(Plus, Minus, Multiply) minus
 # The entered word is invalid
+
+
+
+# Solution 2 - CodingYar
+num1 = int(input('Enter your first number: '))
+num2 = int(input('Enter your second number: '))
+
+user_command = input('Enter (plus, minus , multiply): ')
+
+if user_command == 'plus':
+    print(num1 + num2)
+elif user_command == 'minus':
+    print(num1 - num2)
+elif user_command == 'multiply':
+    print(num1 * num2)
+else:
+    print('The entered word is invalid.')
+
+
+# output:
+# Enter your second number: 10
+# Enter (plus, minus , multiply): plus
+# 12
+
+# output:
+# Enter your first number: 2
+# Enter your second number: 10
+# Enter (plus, minus , multiply): minus
+# -8
+
+# output:
+# Enter your first number: 2
+# Enter your second number: 10
+# Enter (plus, minus , multiply): multiply
+# 20
