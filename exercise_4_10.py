@@ -9,18 +9,18 @@
 # If the number was divisible by both 3 and 5,      say it is divisible by 15
 # If it is not divisible by any of them,            say it is not divisible by any of them
 
-num = int(input("Enter number :"))
+# num = int(input("Enter number :"))
 
-if (num % 3 == 0) and (num % 5 == 0):
-    print("The number is divisible by 3,5.")
-elif num % 3 == 0:
-    print("The number is divisible by 3.")
-elif num % 5 == 0:
-    print("The number is divisible by 5.")
+# if (num % 3 == 0) and (num % 5 == 0):
+#     print("The number is divisible by 3,5.")
+# elif num % 3 == 0:
+#     print("The number is divisible by 3.")
+# elif num % 5 == 0:
+#     print("The number is divisible by 5.")
 
 
-else:
-    print("It is not divisible on any of them.")
+# else:
+#     print("It is not divisible on any of them.")
 
 # output:
 # Enter number :15
@@ -29,3 +29,29 @@ else:
 # output:
 # Enter number :21
 # The number is divisible by 3.
+
+
+# Solution 2 - CodingYar
+input_num = int(input('Enter your number: '))
+
+if input_num % 15 == 0:
+    print('#15')
+elif input_num % 3 == 0:
+    print('#3')
+elif input_num % 5 == 0:
+    print('#5')
+else:
+    print('No')
+
+# output:
+# Enter your number: 27
+# 3
+
+# output:
+# Enter your number: 30
+# 15
+
+# output:
+# Enter your number: 25
+# 5
+
