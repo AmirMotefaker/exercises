@@ -9,12 +9,12 @@
 # (Note: Try to write the program in such a way that it is not case sensitive.
 #    For example, the word mom and Mom are both palindromes.)
 
-string = input(("Enter a string:"))
+# string = input(("Enter a string:"))
 
-if(string == string[::-1]):
-      print("This is Palindrome")
-else:
-      print("This is not Palindrome")
+# if(string == string[::-1]):
+#       print("This is Palindrome")
+# else:
+#       print("This is not Palindrome")
 
 # output:
 # Enter a string:amir
@@ -23,3 +23,46 @@ else:
 # output:
 # Enter a string:mom
 # The string is a palindrome
+
+
+
+# Solution 2 - CodingYar
+# word = input('Enter your word: ')
+# word = word.lower()
+
+# print(list(word))
+# Enter your word: hadi
+# ['h', 'a', 'd', 'i']
+
+# word_list = list(word)
+# word_list.reverse()
+# reversed_word = ''.join(word_list)
+
+# if word == reversed_word:
+#     print('This is Palindrome')
+# else:
+#     print("This is not Palindrome")
+
+# output:
+# Enter your word: amir
+# This is not Palindrome
+
+# output:
+# Enter your word: mom
+# This is Palindrome
+
+# output:
+# Enter your word: Madam
+# This is Palindrome
+
+
+
+# Solution 3 - CodingYar
+word = input('Enter your word: ')
+word = word.lower()
+
+if word == ''.join(reversed(list(word))):
+    print('This is Palindrome')
+else:
+    print("This is not Palindrome")
+
