@@ -14,17 +14,17 @@
 # But if he enters the letter z, say "the letter is silent"
 
 
-my_char = str(input("Enter any character :"))
+# my_char = str(input("Enter any character :"))
 
-if (len(my_char) > 1):
-    print("Input length is more than one.")
-elif ((my_char>='a' and my_char<= 'z') or (my_char>='A' and my_char<='Z')):
-    print(my_char, "is an Alphabet.")
-elif my_char != 0:
-    print(my_char, "is not an Alphabet.")
+# if (len(my_char) > 1):
+#     print("Input length is more than one.")
+# elif ((my_char>='a' and my_char<= 'z') or (my_char>='A' and my_char<='Z')):
+#     print(my_char, "is an Alphabet.")
+# elif my_char != 0:
+#     print(my_char, "is not an Alphabet.")
     
-else:
-    print("The input is correct.")
+# else:
+#     print("The input is correct.")
 
 
 # Output:
@@ -34,3 +34,31 @@ else:
 # Output:
 # Enter any character :2
 # 2 is not an Alphabet.
+
+
+# Solution 2 - CodingYar
+user_char = input('Enter your char: ')
+
+if len(user_char) != 1 :
+    print('Input length is more than one')
+else:
+    if user_char.isalpha():
+        if user_char in ['a', 'e', 'i', 'o', 'u']:
+            print('Vowel')
+        else:
+            print('No Vowel.')
+    else:
+        print('Must be in alphabetical order.')
+
+
+# Output:
+# Enter your char: p
+# No Vowel
+
+# Output:
+# Enter your char: *
+# Must be in alphabetical order.
+
+# Output:
+# Enter your char: asd
+# Input length is more than one
