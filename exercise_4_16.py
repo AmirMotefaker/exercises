@@ -6,11 +6,36 @@
 # participants then he is told to enter. If not then he is told he has no right to enter.
 # (Make a list for the list of participants and save some names of your choice in it)
 
-user = str(input("Enter your name :"))
+# user = str(input("Enter your name :"))
 
-my_list = [Ana, John, Bail, cris, elli, Baxi]
+# my_list = ['Ana', 'John', 'Bail', 'cris', 'elli', 'Baxi']
 
-if user == my_list:
-    print("Your Welcome.")
+# if user == my_list:
+#     print("Your Welcome.")
+# else:
+#     print("You do not have the right to enter.")
+
+
+
+# Solution 2 - CodingYar
+names = ['Ana', 'John', 'Bail', 'cris', 'elli', 'Baxi']
+
+user_name = input('Enter your name: ')
+
+if user_name in names:
+    print('You can enter.')
 else:
-    print("You do not have the right to enter.")
+    print('No.')
+
+
+# Output:
+# Enter your name: Ana
+# You can enter.
+
+# Output:
+# Enter your name: cris
+# You can enter.
+
+# Output:
+# Enter your name: baxi
+# No.
